@@ -1,7 +1,7 @@
 # Percorso completo AI Mastery Accelerator
 
 Percorso intensivo per acquisire competenze operative da **AI/ML Engineer**: Python
-solido, ML fuori dal notebook, RAG, agenti, valutazione e deploy.
+solido, ML e computer vision fuori dal notebook, RAG, agenti, valutazione e deploy.
 
 > Il corso costruisce competenze e portfolio, ma non sostituisce i "3+ anni" richiesti
 > da alcune posizioni. Per rendere credibile il profilo, completa i progetti, pubblicali
@@ -14,6 +14,7 @@ solido, ML fuori dal notebook, RAG, agenti, valutazione e deploy.
 | 0 | [Setup e metodo](00-setup/LEZIONE.md) | Ambiente riproducibile e baseline |
 | 1-2 | [Python production-grade](01-python-production/LEZIONE.md) | Package tipizzato, testato e osservabile |
 | 3 | [ML end-to-end](02-ml-production/LEZIONE.md) | Modello con pipeline, metriche e API |
+| 3B | [Deep Learning e Computer Vision](02b-deep-learning-vision/LEZIONE.md) | Classificatore di immagini, CNN e transfer learning |
 | 4 | [LLM e Transformer](03-llm-foundations/LEZIONE.md) | Scelte motivate su prompt, modelli e tuning |
 | 5 | [RAG](04-rag/LEZIONE.md) | Retrieval misurabile con citazioni |
 | 6 | [Agenti e LangGraph](05-agents/LEZIONE.md) | Workflow con tool, stato e guardrail |
@@ -55,11 +56,12 @@ Un modulo è concluso solo quando:
 
 ## Portfolio minimo
 
-Alla fine mostra tre repository o tre componenti ben separati:
+Alla fine mostra almeno tre repository o componenti ben separati:
 
 1. **ML service**: training riproducibile, tracking, API, drift.
-2. **RAG service**: ingestion, retrieval ibrido, eval e citazioni.
-3. **Agent workflow**: MCP, tool tipizzati, stato persistente, human approval e tracing.
+2. **Vision classifier**: error analysis, CNN/transfer learning e serving.
+3. **RAG service**: ingestion, retrieval ibrido, eval e citazioni.
+4. **Agent workflow**: MCP, tool tipizzati, stato persistente, human approval e tracing.
 
 Ogni progetto deve avere diagramma, quickstart, test, metriche, costi stimati,
 limitazioni note e una demo di 3-5 minuti.

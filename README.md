@@ -4,8 +4,8 @@
 
 [![Publish course](https://github.com/wookappa/AILab/actions/workflows/docs.yml/badge.svg)](https://github.com/wookappa/AILab/actions/workflows/docs.yml)
 
-Corso intensivo e pratico per AI/ML Engineer: Python production-grade, ML, LLM, RAG,
-agenti, MCP, data platform e LLMOps.
+Corso intensivo e pratico per AI/ML Engineer: Python production-grade, ML, computer
+vision, LLM, RAG, agenti, MCP, data platform e LLMOps.
 
 **Sito del corso:** <https://wookappa.github.io/AILab/>
 

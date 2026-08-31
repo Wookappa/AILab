@@ -9,3 +9,4 @@ __pycache__/
 site/
 *.duckdb
 AI-Mastery-Accelerator/examples/tickets-laboratorio.jsonl
+AI-Mastery-Accelerator/data/

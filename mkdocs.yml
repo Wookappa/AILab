@@ -58,6 +58,10 @@ nav:
           - Lezione passo-passo: 02-ml-production/LEZIONE.md
           - Approfondimento tecnico: 02-ml-production/GUIDA.md
           - Checklist finale: 02-ml-production/README.md
+      - "02B - Deep Learning e Computer Vision":
+          - Lezione passo-passo: 02b-deep-learning-vision/LEZIONE.md
+          - Approfondimento tecnico: 02b-deep-learning-vision/GUIDA.md
+          - Checklist finale: 02b-deep-learning-vision/README.md
       - "03 - LLM e Transformer":
           - Lezione passo-passo: 03-llm-foundations/LEZIONE.md
           - Approfondimento tecnico: 03-llm-foundations/GUIDA.md

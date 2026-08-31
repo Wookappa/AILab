@@ -61,6 +61,7 @@ Una definizione utile deve rispondere:
 | 00 | usare gli strumenti ed eseguire il primo programma |
 | 01 | programmare in Python e testare un piccolo servizio |
 | 02 | insegnare a un modello usando esempi e misurare gli errori |
+| 02B | creare un modello che riconosce immagini e capire le CNN |
 | 03 | capire come un modello linguistico riceve e genera testo |
 | 04 | cercare documenti e usarli per costruire risposte con fonti |
 | 05 | creare workflow e agenti che usano strumenti |

@@ -27,6 +27,11 @@ rag = [
   "rank-bm25>=0.2,<1",
   "sentence-transformers>=3,<6",
 ]
+vision = [
+  "pillow>=10,<13",
+  "torch>=2.5,<3",
+  "torchvision>=0.20,<1",
+]
 platform = [
   "dbt-duckdb>=1.9,<2",
   "dlt[duckdb]>=1,<2",
