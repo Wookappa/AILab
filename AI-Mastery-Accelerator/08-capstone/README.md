@@ -6,7 +6,9 @@ Costruisci un assistente per procedure operative interne. Risponde usando runboo
 consulta lo stato di servizi tramite tool e propone l'apertura di un incidente. Non
 esegue azioni di scrittura senza approvazione.
 
-**Implementazione guidata:** [piano completo del capstone](PIANO.md).
+**Inizia da qui:** [capstone passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [piano tecnico completo](PIANO.md).
 
 ## Requisiti funzionali
 

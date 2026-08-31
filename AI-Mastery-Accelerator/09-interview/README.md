@@ -1,5 +1,9 @@
 # 09 - Colloquio, system design e piano di mastery
 
+**Inizia da qui:** [preparazione al colloquio passo-passo](LEZIONE.md).
+
+Questa pagina è il manuale avanzato delle risposte modello.
+
 ## Risposte che devi saper dare
 
 L'elenco seguente è una mappa degli argomenti. Le parentesi introducono subito

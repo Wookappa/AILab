@@ -1,6 +1,8 @@
 # 02 - Machine learning end-to-end
 
-**Lezione completa:** [dati, training, tuning, metriche e produzione](GUIDA.md).
+**Inizia da qui:** [primo sistema ML passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento su training, tuning e produzione](GUIDA.md).
 
 ## Dalla domanda al modello
 

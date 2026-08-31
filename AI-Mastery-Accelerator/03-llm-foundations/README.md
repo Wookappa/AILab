@@ -1,6 +1,8 @@
 # 03 - LLM, Transformer, prompting e tuning
 
-**Lezione completa:** [come funzionano LLM, prompting, valutazione e tuning](GUIDA.md).
+**Inizia da qui:** [LLM e prompt passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento su LLM, valutazione e tuning](GUIDA.md).
 
 ## Modello mentale
 

@@ -1,6 +1,8 @@
 # 04 - Retrieval-Augmented Generation
 
-**Lezione completa:** [progettare, misurare e mantenere un sistema RAG](GUIDA.md).
+**Inizia da qui:** [RAG passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento su RAG in produzione](GUIDA.md).
 
 ## Architettura
 

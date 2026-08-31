@@ -1,79 +1,86 @@
-# AI Mastery Accelerator
+# Inizia qui
 
-Percorso intensivo per acquisire competenze operative da **AI/ML Engineer**: Python
-solido, ML fuori dal notebook, RAG, agenti, valutazione e deploy.
+Questo corso ora assume che tu parta da zero.
 
-> Il corso costruisce competenze e portfolio, ma non sostituisce i "3+ anni" richiesti
-> da alcune posizioni. Per rendere credibile il profilo, completa i progetti, pubblicali
-> e raccogli metriche, decisioni tecniche e feedback di utenti reali.
+Non devi sapere già che cosa significano Python, modello, API, RAG, agente, pipeline
+o deploy. Ogni termine viene introdotto prima di essere usato.
 
-## Percorso
+## Non iniziare dalle checklist
 
-| Settimana | Modulo | Risultato |
-|---|---|---|
-| 0 | [Setup e metodo](00-setup/README.md) | Ambiente riproducibile e baseline |
-| 1-2 | [Python production-grade](01-python-production/README.md) | Package tipizzato, testato e osservabile |
-| 3 | [ML end-to-end](02-ml-production/README.md) | Modello con pipeline, metriche e API |
-| 4 | [LLM e Transformer](03-llm-foundations/README.md) | Scelte motivate su prompt, modelli e tuning |
-| 5 | [RAG](04-rag/README.md) | Retrieval misurabile con citazioni |
-| 6 | [Agenti e LangGraph](05-agents/README.md) | Workflow con tool, stato e guardrail |
-| 7 | [Data platform e MCP](06-data-platform-mcp/README.md) | Pipeline knowledge-base automatizzata |
-| 8 | [LLMOps e deploy](07-llmops-deployment/README.md) | Servizio valutato, monitorato e resiliente |
-| 9-20 | [Capstone](08-capstone/README.md) | P0 funzionante, hardening e cloud |
-| Continuo | [Colloquio e mastery](09-interview/README.md) | Risposte modello, system design e crescita |
+Ogni modulo contiene tre tipi di pagina:
 
-La [matrice di copertura della posizione](JOB-MATCH.md) collega ogni requisito a un
-modulo e a una prova concreta da mostrare.
+1. **Lezione passo-passo:** è la pagina da studiare per prima. Spiega termini, esempi,
+   comandi, output, esercizi e soluzioni.
+2. **Approfondimento tecnico:** si legge dopo la lezione. Porta il concetto al livello
+   richiesto in produzione.
+3. **Checklist:** serve alla fine per capire se hai completato il modulo. Non è una
+   spiegazione.
 
-Il [glossario ragionato](GLOSSARIO.md) definisce acronimi e termini usati nel corso.
-Ogni guida completa riparte inoltre dalle definizioni necessarie al modulo.
+Il problema della versione precedente era che mostrava subito la checklist. Ora la
+navigazione apre prima la lezione.
 
-## Ritmo consigliato
+## Che cosa fare adesso
 
-Durata realistica: **12 settimane per teoria e P0 iniziale; 20 settimane, 10-12
-ore/settimana, per completare anche hardening e cloud**. La panoramica di ogni modulo
-serve per orientarti; la `GUIDA.md` o `PIANO.md` contiene la lezione da studiare.
+Apri:
 
-Non proseguire quando incontri un termine non chiaro: usa il glossario, riscrivine la
-definizione con parole tue e crea un esempio prima di continuare.
+**[00 - Partire da zero: file, terminale, Python e primo programma](00-setup/LEZIONE.md)**
 
-1. Leggi teoria e schema: 60-90 minuti.
-2. Riscrivi gli esempi senza copiare: 2 ore.
-3. Completa gli esercizi: 3-4 ore.
-4. Integra il risultato nel capstone: 2 ore.
-5. Scrivi un breve ADR: problema, alternative, scelta, metriche.
+Segui i comandi nell'ordine. Non saltare un passaggio che non capisci.
 
-## Regola di completamento
+## Come studiare una lezione
 
-Un modulo è concluso solo quando:
+Per ogni sezione:
 
-- il codice parte da zero seguendo il README;
-- test, lint e type-check passano;
-- hai almeno una metrica e un test per un caso negativo;
-- sai spiegare trade-off, failure mode e costo;
-- il risultato non dipende da una cella eseguita manualmente.
+1. leggi un concetto;
+2. riscrivilo con parole tue;
+3. esegui l'esempio;
+4. confronta l'output;
+5. modifica una cosa;
+6. provoca un errore;
+7. completa l'esercizio;
+8. confronta la soluzione.
 
-## Portfolio minimo
+Leggere soltanto non basta per imparare programmazione.
 
-Alla fine mostra tre repository o tre componenti ben separati:
+## Se incontri una parola sconosciuta
 
-1. **ML service**: training riproducibile, tracking, API, drift.
-2. **RAG service**: ingestion, retrieval ibrido, eval e citazioni.
-3. **Agent workflow**: MCP, tool tipizzati, stato persistente, human approval e tracing.
+Prima controlla la spiegazione nella stessa lezione. Se non basta, usa il
+[glossario ragionato](GLOSSARIO.md).
 
-Ogni progetto deve avere diagramma, quickstart, test, metriche, costi stimati,
-limitazioni note e una demo di 3-5 minuti.
+Una definizione utile deve rispondere:
 
-## Dipendenze
+- che cos'è?
+- perché serve?
+- qual è un esempio?
+- che cosa può andare storto?
 
-Gli esempi sono volutamente piccoli. Installa soltanto le dipendenze del laboratorio
-che stai eseguendo:
+## Ordine dei moduli
 
-```powershell
-py -3.12 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -U pip
-pip install -e ".[dev,ai]"
-```
+| Ordine | Che cosa imparerai, in parole semplici |
+|---|---|
+| 00 | usare gli strumenti ed eseguire il primo programma |
+| 01 | programmare in Python e testare un piccolo servizio |
+| 02 | insegnare a un modello usando esempi e misurare gli errori |
+| 03 | capire come un modello linguistico riceve e genera testo |
+| 04 | cercare documenti e usarli per costruire risposte con fonti |
+| 05 | creare workflow e agenti che usano strumenti |
+| 06 | aggiornare dati e knowledge base automaticamente |
+| 07 | trasformare il progetto in un servizio affidabile |
+| 08 | unire tutto in un progetto da portfolio |
+| 09 | spiegare le scelte durante un colloquio |
 
-Non inserire chiavi API nel repository: usa variabili d'ambiente o un secret manager.
+Il [percorso completo](PERCORSO.md) contiene durata, risultati e regole di
+completamento. Non serve leggerlo prima della lezione 00.
+
+## Regola importante
+
+Non devi completare il corso velocemente. Devi riuscire a:
+
+- eseguire il codice;
+- spiegare che cosa fa;
+- prevedere un errore;
+- correggerlo;
+- motivare una scelta.
+
+Se una sezione non è chiara, fermati lì: il capitolo successivo presume che tu abbia
+capito e provato quello precedente.

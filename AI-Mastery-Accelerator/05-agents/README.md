@@ -1,6 +1,8 @@
 # 05 - Agenti, LangChain e LangGraph
 
-**Lezione completa:** [workflow agentici affidabili con LangGraph](GUIDA.md).
+**Inizia da qui:** [workflow e agenti passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento su LangGraph](GUIDA.md).
 
 ## Prima regola
 

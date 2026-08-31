@@ -1,6 +1,8 @@
 # 07 - LLMOps, valutazione e deploy
 
-**Lezione completa:** [evaluation, serving, osservabilità e rilascio](GUIDA.md).
+**Inizia da qui:** [produzione e deploy passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento LLMOps](GUIDA.md).
 
 **Laboratorio infrastruttura:** [Docker, Terraform, IAM ed ECS](INFRA.md).
 

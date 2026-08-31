@@ -5,7 +5,9 @@
 Creare un ambiente riproducibile e misurare il punto di partenza. Il corso non premia
 quanti notebook completi, ma quanti sistemi sai progettare, misurare e gestire.
 
-**Lezione completa:** [metodo, metriche e riproducibilità](GUIDA.md).
+**Inizia da qui:** [lezione passo-passo per chi parte da zero](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento su metodo e riproducibilità](GUIDA.md).
 
 ## Schema del lavoro AI
 
@@ -38,10 +40,10 @@ provider LLM scelto. Mantieni configurazione in ambiente e dipendenze versionate
 cd AI-Mastery-Accelerator
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install -e ".[dev,ai]"
+pip install -e ".[dev]"
 python -m pytest
-ruff check .
-mypy .
+ruff check src tests
+mypy src tests
 ```
 
 ## Baseline personale

@@ -6,6 +6,12 @@ repo_name: wookappa/AILab
 edit_uri: edit/main/AI-Mastery-Accelerator/
 docs_dir: AI-Mastery-Accelerator
 site_dir: site
+exclude_docs: |
+  .venv*/
+  .*_cache/
+  src/
+  tests/
+  examples/
 
 theme:
   name: material
@@ -35,39 +41,51 @@ theme:
         name: Passa al tema chiaro
 
 nav:
-  - Home: README.md
+  - Inizia qui: README.md
+  - Percorso completo: PERCORSO.md
   - Glossario: GLOSSARIO.md
   - Copertura posizione: JOB-MATCH.md
   - Corso:
       - "00 - Setup e metodo":
-          - Panoramica: 00-setup/README.md
-          - Lezione completa: 00-setup/GUIDA.md
+          - Lezione passo-passo: 00-setup/LEZIONE.md
+          - Approfondimento tecnico: 00-setup/GUIDA.md
+          - Checklist finale: 00-setup/README.md
       - "01 - Python production-grade":
-          - Panoramica: 01-python-production/README.md
-          - Lezione completa: 01-python-production/GUIDA.md
+          - Lezione passo-passo: 01-python-production/LEZIONE.md
+          - Approfondimento tecnico: 01-python-production/GUIDA.md
+          - Checklist finale: 01-python-production/README.md
       - "02 - ML end-to-end":
-          - Panoramica: 02-ml-production/README.md
-          - Lezione completa: 02-ml-production/GUIDA.md
+          - Lezione passo-passo: 02-ml-production/LEZIONE.md
+          - Approfondimento tecnico: 02-ml-production/GUIDA.md
+          - Checklist finale: 02-ml-production/README.md
       - "03 - LLM e Transformer":
-          - Panoramica: 03-llm-foundations/README.md
-          - Lezione completa: 03-llm-foundations/GUIDA.md
+          - Lezione passo-passo: 03-llm-foundations/LEZIONE.md
+          - Approfondimento tecnico: 03-llm-foundations/GUIDA.md
+          - Checklist finale: 03-llm-foundations/README.md
       - "04 - RAG":
-          - Panoramica: 04-rag/README.md
-          - Lezione completa: 04-rag/GUIDA.md
+          - Lezione passo-passo: 04-rag/LEZIONE.md
+          - Approfondimento tecnico: 04-rag/GUIDA.md
+          - Checklist finale: 04-rag/README.md
       - "05 - Agenti e LangGraph":
-          - Panoramica: 05-agents/README.md
-          - Lezione completa: 05-agents/GUIDA.md
+          - Lezione passo-passo: 05-agents/LEZIONE.md
+          - Approfondimento tecnico: 05-agents/GUIDA.md
+          - Checklist finale: 05-agents/README.md
       - "06 - Data platform e MCP":
-          - Panoramica: 06-data-platform-mcp/README.md
-          - Lezione completa: 06-data-platform-mcp/GUIDA.md
+          - Lezione passo-passo: 06-data-platform-mcp/LEZIONE.md
+          - Approfondimento tecnico: 06-data-platform-mcp/GUIDA.md
+          - Checklist finale: 06-data-platform-mcp/README.md
       - "07 - LLMOps e deploy":
-          - Panoramica: 07-llmops-deployment/README.md
-          - Lezione completa: 07-llmops-deployment/GUIDA.md
+          - Lezione passo-passo: 07-llmops-deployment/LEZIONE.md
+          - Approfondimento tecnico: 07-llmops-deployment/GUIDA.md
           - Laboratorio infrastruttura: 07-llmops-deployment/INFRA.md
+          - Checklist finale: 07-llmops-deployment/README.md
       - "08 - Capstone":
-          - Panoramica: 08-capstone/README.md
-          - Implementazione guidata: 08-capstone/PIANO.md
-      - "09 - Colloquio e mastery": 09-interview/README.md
+          - Lezione passo-passo: 08-capstone/LEZIONE.md
+          - Implementazione tecnica: 08-capstone/PIANO.md
+          - Checklist finale: 08-capstone/README.md
+      - "09 - Colloquio e mastery":
+          - Lezione passo-passo: 09-interview/LEZIONE.md
+          - Risposte modello: 09-interview/README.md
 
 plugins:
   - search:
@@ -77,8 +95,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - tables
-  - toc:
-      permalink: true
+  - toc
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

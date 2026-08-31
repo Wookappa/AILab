@@ -5,7 +5,9 @@
 Costruire una knowledge base come **data product**: alimentata automaticamente,
 versionata, osservabile e accessibile agli agenti tramite MCP con permessi espliciti.
 
-**Lezione completa:** [data platform, pipeline knowledge-base e MCP](GUIDA.md).
+**Inizia da qui:** [data platform e MCP passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento data platform/MCP](GUIDA.md).
 
 Per gli esempi dlt, dbt e MCP installa `pip install -e ".[dev,ai,platform]"`. Esegui
 Airflow nel suo ambiente o container seguendo i constraint della versione scelta.

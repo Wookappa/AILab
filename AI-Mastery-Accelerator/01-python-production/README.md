@@ -9,7 +9,9 @@
 - package, test unitari/integrativi, mocking ai confini;
 - logging strutturato, configurazione e gestione degli errori.
 
-**Lezione completa:** [Python applicato a servizi AI affidabili](GUIDA.md).
+**Inizia da qui:** [lezione Python passo-passo](LEZIONE.md).
+
+**Dopo la lezione:** [approfondimento sui servizi AI affidabili](GUIDA.md).
 
 ## Schema
 
