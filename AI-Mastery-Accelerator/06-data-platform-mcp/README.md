@@ -5,9 +5,12 @@
 Costruire una knowledge base come **data product**: alimentata automaticamente,
 versionata, osservabile e accessibile agli agenti tramite MCP con permessi espliciti.
 
-Per il laboratorio locale installa `pip install -e ".[dev,ai,platform]"`. DuckDB
-sostituisce Snowflake durante lo sviluppo; il progetto finale deve documentare anche
-configurazione e differenze del target Snowflake.
+**Lezione completa:** [data platform, pipeline knowledge-base e MCP](GUIDA.md).
+
+Per gli esempi dlt, dbt e MCP installa `pip install -e ".[dev,ai,platform]"`. Esegui
+Airflow nel suo ambiente o container seguendo i constraint della versione scelta.
+DuckDB sostituisce Snowflake durante lo sviluppo; il progetto finale deve documentare
+anche configurazione e differenze del target Snowflake.
 
 ## Architettura nello stack della posizione
 

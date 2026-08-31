@@ -5,6 +5,8 @@
 Creare un ambiente riproducibile e misurare il punto di partenza. Il corso non premia
 quanti notebook completi, ma quanti sistemi sai progettare, misurare e gestire.
 
+**Lezione completa:** [metodo, metriche e riproducibilità](GUIDA.md).
+
 ## Schema del lavoro AI
 
 ```mermaid

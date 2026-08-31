@@ -1,5 +1,7 @@
 # 02 - Machine learning end-to-end
 
+**Lezione completa:** [dati, training, tuning, metriche e produzione](GUIDA.md).
+
 ## Dalla domanda al modello
 
 ```mermaid

@@ -1,5 +1,7 @@
 # 03 - LLM, Transformer, prompting e tuning
 
+**Lezione completa:** [come funzionano LLM, prompting, valutazione e tuning](GUIDA.md).
+
 ## Modello mentale
 
 Un LLM stima il token successivo:
@@ -72,6 +74,6 @@ controllo contaminazione e rubriche coerenti.
    latenza p50/p95 e costo.
 4. Implementa caching solo per richieste deterministiche e non sensibili.
 5. Disegna un esperimento per decidere se fare fine-tuning; specifica soglia di go/no-go.
+
 **Criterio di successo:** la scelta del modello è supportata da una tabella di metriche,
-non da impressioni su cinque prompt.
 non da impressioni su cinque prompt.

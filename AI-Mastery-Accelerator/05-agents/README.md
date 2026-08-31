@@ -1,5 +1,7 @@
 # 05 - Agenti, LangChain e LangGraph
 
+**Lezione completa:** [workflow agentici affidabili con LangGraph](GUIDA.md).
+
 ## Prima regola
 
 Non usare un agente se una pipeline deterministica basta. Un agente è utile quando il

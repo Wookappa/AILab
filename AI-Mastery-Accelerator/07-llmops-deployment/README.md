@@ -1,5 +1,9 @@
 # 07 - LLMOps, valutazione e deploy
 
+**Lezione completa:** [evaluation, serving, osservabilità e rilascio](GUIDA.md).
+
+**Laboratorio infrastruttura:** [Docker, Terraform, IAM ed ECS](INFRA.md).
+
 ## Ciclo operativo
 
 ```mermaid
@@ -69,7 +73,7 @@ SLO di esempio:
 
 ## Esercizi
 
-1. Esponi RAG o agente via FastAPI con `/health/live`, `/health/ready` e `/v1/answer`.
+1. Esponi RAG o agente via FastAPI con `/health/live`, `/health/ready` e `/v1/answers`.
 2. Propaga `request_id`; misura durata e token di ogni step.
 3. Aggiungi timeout, semaphore e una coda limitata.
 4. Esegui 50 richieste concorrenti e identifica il collo di bottiglia.

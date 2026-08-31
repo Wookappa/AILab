@@ -1,5 +1,7 @@
 # 04 - Retrieval-Augmented Generation
 
+**Lezione completa:** [progettare, misurare e mantenere un sistema RAG](GUIDA.md).
+
 ## Architettura
 
 ```mermaid
@@ -91,8 +93,9 @@ Costruisci un assistente su 20-50 documenti tecnici.
 **Esperimento minimo:** cambia una sola variabile alla volta e salva configurazione e
 metriche. Non scegliere la pipeline guardando esempi manuali.
 
-**Criterio di successo:** Recall@5 >= 0,85 sul golden set, zero cross-tenant leakage e
-ogni affermazione fattuale contiene una citazione valida oppure il sistema si astiene.
+**Criterio di successo:** Recall@5 >= 0,85 sulle query answerable/autorizzate, zero
+risultati non autorizzati e ogni affermazione fattuale contiene una citazione valida
+oppure il sistema si astiene. Misura separatamente i casi senza risposta.
 
 ## Failure mode
 

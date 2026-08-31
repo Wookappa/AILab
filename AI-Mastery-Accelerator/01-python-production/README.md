@@ -9,6 +9,8 @@
 - package, test unitari/integrativi, mocking ai confini;
 - logging strutturato, configurazione e gestione degli errori.
 
+**Lezione completa:** [Python applicato a servizi AI affidabili](GUIDA.md).
+
 ## Schema
 
 ```mermaid

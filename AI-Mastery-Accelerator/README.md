@@ -12,23 +12,30 @@ solido, ML fuori dal notebook, RAG, agenti, valutazione e deploy.
 | Settimana | Modulo | Risultato |
 |---|---|---|
 | 0 | [Setup e metodo](00-setup/README.md) | Ambiente riproducibile e baseline |
-| 1 | [Python production-grade](01-python-production/README.md) | Package tipizzato, testato e osservabile |
-| 2 | [ML end-to-end](02-ml-production/README.md) | Modello con pipeline, metriche e API |
-| 3 | [LLM e Transformer](03-llm-foundations/README.md) | Scelte motivate su prompt, modelli e tuning |
-| 4 | [RAG](04-rag/README.md) | Retrieval misurabile con citazioni |
-| 5 | [Agenti e LangGraph](05-agents/README.md) | Workflow con tool, stato e guardrail |
-| 6 | [Data platform e MCP](06-data-platform-mcp/README.md) | Pipeline knowledge-base automatizzata |
-| 7 | [LLMOps e deploy](07-llmops-deployment/README.md) | Servizio valutato, monitorato e resiliente |
-| 8-9 | [Capstone](08-capstone/README.md) | Progetto da portfolio production-ready |
-| Continuo | [Colloquio e mastery](09-interview/README.md) | System design, domande e piano di crescita |
+| 1-2 | [Python production-grade](01-python-production/README.md) | Package tipizzato, testato e osservabile |
+| 3 | [ML end-to-end](02-ml-production/README.md) | Modello con pipeline, metriche e API |
+| 4 | [LLM e Transformer](03-llm-foundations/README.md) | Scelte motivate su prompt, modelli e tuning |
+| 5 | [RAG](04-rag/README.md) | Retrieval misurabile con citazioni |
+| 6 | [Agenti e LangGraph](05-agents/README.md) | Workflow con tool, stato e guardrail |
+| 7 | [Data platform e MCP](06-data-platform-mcp/README.md) | Pipeline knowledge-base automatizzata |
+| 8 | [LLMOps e deploy](07-llmops-deployment/README.md) | Servizio valutato, monitorato e resiliente |
+| 9-20 | [Capstone](08-capstone/README.md) | P0 funzionante, hardening e cloud |
+| Continuo | [Colloquio e mastery](09-interview/README.md) | Risposte modello, system design e crescita |
 
 La [matrice di copertura della posizione](JOB-MATCH.md) collega ogni requisito a un
 modulo e a una prova concreta da mostrare.
 
+Il [glossario ragionato](GLOSSARIO.md) definisce acronimi e termini usati nel corso.
+Ogni guida completa riparte inoltre dalle definizioni necessarie al modulo.
+
 ## Ritmo consigliato
 
-Durata: **9 settimane, 8-10 ore/settimana**. Se conosci già data engineering, comprimi
-i moduli 2 e 6 in una sola settimana.
+Durata realistica: **12 settimane per teoria e P0 iniziale; 20 settimane, 10-12
+ore/settimana, per completare anche hardening e cloud**. La panoramica di ogni modulo
+serve per orientarti; la `GUIDA.md` o `PIANO.md` contiene la lezione da studiare.
+
+Non proseguire quando incontri un termine non chiaro: usa il glossario, riscrivine la
+definizione con parole tue e crea un esempio prima di continuare.
 
 1. Leggi teoria e schema: 60-90 minuti.
 2. Riscrivi gli esempi senza copiare: 2 ore.

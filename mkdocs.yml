@@ -36,17 +36,37 @@ theme:
 
 nav:
   - Home: README.md
+  - Glossario: GLOSSARIO.md
   - Copertura posizione: JOB-MATCH.md
   - Corso:
-      - "00 - Setup e metodo": 00-setup/README.md
-      - "01 - Python production-grade": 01-python-production/README.md
-      - "02 - ML end-to-end": 02-ml-production/README.md
-      - "03 - LLM e Transformer": 03-llm-foundations/README.md
-      - "04 - RAG": 04-rag/README.md
-      - "05 - Agenti e LangGraph": 05-agents/README.md
-      - "06 - Data platform e MCP": 06-data-platform-mcp/README.md
-      - "07 - LLMOps e deploy": 07-llmops-deployment/README.md
-      - "08 - Capstone": 08-capstone/README.md
+      - "00 - Setup e metodo":
+          - Panoramica: 00-setup/README.md
+          - Lezione completa: 00-setup/GUIDA.md
+      - "01 - Python production-grade":
+          - Panoramica: 01-python-production/README.md
+          - Lezione completa: 01-python-production/GUIDA.md
+      - "02 - ML end-to-end":
+          - Panoramica: 02-ml-production/README.md
+          - Lezione completa: 02-ml-production/GUIDA.md
+      - "03 - LLM e Transformer":
+          - Panoramica: 03-llm-foundations/README.md
+          - Lezione completa: 03-llm-foundations/GUIDA.md
+      - "04 - RAG":
+          - Panoramica: 04-rag/README.md
+          - Lezione completa: 04-rag/GUIDA.md
+      - "05 - Agenti e LangGraph":
+          - Panoramica: 05-agents/README.md
+          - Lezione completa: 05-agents/GUIDA.md
+      - "06 - Data platform e MCP":
+          - Panoramica: 06-data-platform-mcp/README.md
+          - Lezione completa: 06-data-platform-mcp/GUIDA.md
+      - "07 - LLMOps e deploy":
+          - Panoramica: 07-llmops-deployment/README.md
+          - Lezione completa: 07-llmops-deployment/GUIDA.md
+          - Laboratorio infrastruttura: 07-llmops-deployment/INFRA.md
+      - "08 - Capstone":
+          - Panoramica: 08-capstone/README.md
+          - Implementazione guidata: 08-capstone/PIANO.md
       - "09 - Colloquio e mastery": 09-interview/README.md
 
 plugins:

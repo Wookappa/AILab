@@ -6,13 +6,15 @@ Costruisci un assistente per procedure operative interne. Risponde usando runboo
 consulta lo stato di servizi tramite tool e propone l'apertura di un incidente. Non
 esegue azioni di scrittura senza approvazione.
 
+**Implementazione guidata:** [piano completo del capstone](PIANO.md).
+
 ## Requisiti funzionali
 
 1. Ingestion incrementale con dlt, Snowflake/dbt, metadati e ACL.
 2. RAG ibrido con reranking, citazioni e astensione.
 3. Agente LangGraph che usa un server MCP per `search_runbooks`,
-   `get_service_status` e `create_incident`.
-4. Approval obbligatoria per `create_incident`.
+   `get_service_status`, `propose_incident` e `commit_incident`.
+4. Approval obbligatoria fra proposta e commit dell'incidente.
 5. Orchestrazione Airflow, API asincrona e CLI di eval.
 6. Golden set con almeno 60 casi:
    - 30 domande answerable;
@@ -68,14 +70,17 @@ tests/
 
 ## Milestone
 
-| Giorni | Deliverable | Gate |
+| Livello/settimane | Deliverable | Gate |
 |---|---|---|
-| 1-2 | dlt, dbt, qualità e baseline BM25 | freshness e Recall@5 misurate |
-| 3-4 | ingestion versionata e hybrid RAG | update/rollback provati |
-| 5-6 | MCP, graph e tool fake | auth e traiettorie testate |
-| 7 | Airflow, API e persistenza | replay idempotente |
-| 8 | eval, load e failure test | SLO rispettati |
-| 9-10 | Docker/AWS, dashboard e demo | rollback provato |
+| P0, 1-2 | dlt/dbt locale, qualità e baseline BM25 | freshness e Recall@5 |
+| P0, 3-4 | ingestion versionata e hybrid RAG | update/rollback provati |
+| P0, 5 | MCP HTTP, LangGraph, approval | auth e traiettorie testate |
+| P0, 6 | FastAPI, eval, tracing e Docker | demo locale completa |
+| P1, 7-9 | Airflow, dashboard, load/failure test | SLO e runbook |
+| P2, 10-12 | Snowflake, AWS e Terraform | canary, costo e rollback |
+
+P0 è il portfolio minimo consegnabile. P1 dimostra operabilità; P2 dimostra cloud e
+data-platform reale. Non iniziare P1 finché tutti gli acceptance test P0 passano.
 
 ## Definition of done
 
@@ -83,7 +88,8 @@ tests/
 - nessun segreto o dato sensibile nei log;
 - test per permission bypass e cross-tenant access;
 - pipeline automatica dlt/dbt/Airflow senza aggiornamenti manuali;
-- Recall@5 >= 0,85 e citation precision >= 0,90;
+- Recall@5 >= 0,85 sui casi answerable/autorizzati, citation precision >= 0,90 e zero
+  unauthorized hits;
 - p95 e costo entro budget dichiarato;
 - azioni di scrittura idempotenti e approvate;
 - diagramma, ADR principali, runbook e limitazioni;
