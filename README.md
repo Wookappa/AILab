@@ -1,4 +1,6 @@
-# AI Mastery Accelerator
+# AILab
+
+## AI Mastery Accelerator
 
 [![Publish course](https://github.com/wookappa/AILab/actions/workflows/docs.yml/badge.svg)](https://github.com/wookappa/AILab/actions/workflows/docs.yml)
 
